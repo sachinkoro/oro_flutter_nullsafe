@@ -1,6 +1,6 @@
 name: oro_flutter
 description: Package contains elements that can be used for all Oro applications.
-version: 0.0.1
+version: 0.0.2
 author:
 homepage:
 
@@ -20,27 +20,6 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
-flutter:
-  fonts:
-    - family: NunitoSans
-      fonts:
-        - asset: assets/Nunito_Sans/NunitoSans-ExtraLight.ttf
-          weight: 200
-        - asset: assets/Nunito_Sans/NunitoSans-Light.ttf
-          weight: 300
-        - asset: assets/Nunito_Sans/NunitoSans-Regular.ttf
-          weight: 400
-        - asset: assets/Nunito_Sans/NunitoSans-SemiBold.ttf
-          weight: 600
-        - asset: assets/Nunito_Sans/NunitoSans-Bold.ttf
-          weight: 700
-        - asset: assets/Nunito_Sans/NunitoSans-ExtraBold.ttf
-          weight: 800
-        - asset: assets/Nunito_Sans/NunitoSans-Black.ttf
-          weight: 900
-        - asset: assets/Nunito_Sans/NunitoSans-Italic.ttf
-          style: italic
-
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
