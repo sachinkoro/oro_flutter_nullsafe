@@ -33,6 +33,7 @@ const Color dc4c4c4c = Color(0xff4c4c4c);
 const Color dc5a5a5a = Color(0xff5a5a5a);
 const Color dce6e6e6 = Color(0xffe6e6e6);
 const Color dc6d6d6d = Color(0xff6d6d6d);
+const Color dc9b9b9b = Color(0xff9b9b9b);
 const Color dcf0f0f0 = Color(0xfff0f0f0);
 const Color dccecece = Color(0xffcecece);
 const Color dce8a732 = Color(0xffe8a732);
