@@ -95,3 +95,10 @@ TextStyle dtTitle({Color color}) => TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: 20,
     color: color);
+
+TextStyle dtCustom({Color color, FontWeight fontWeight, double fontSize}) =>
+    TextStyle(
+        fontFamily: "NunitoSans",
+        fontWeight: fontWeight,
+        fontSize: fontSize,
+        color: color);
