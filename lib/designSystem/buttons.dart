@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oro_flutter/designSystem/colors.dart';
 import 'package:oro_flutter/designSystem/gradient.dart';
 
-// ignore: must_be_immutable, camel_case_types
+// ignore: must_be_immutable, camel_case_types//
 class dbButtonsMod24pxTC extends StatelessWidget {
   Widget? child;
   Function? onTap;
