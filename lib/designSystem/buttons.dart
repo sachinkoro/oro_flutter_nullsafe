@@ -4,9 +4,9 @@ import 'package:oro_flutter/designSystem/gradient.dart';
 
 // ignore: must_be_immutable, camel_case_types
 class dbButtonsMod24pxTC extends StatelessWidget {
-  Widget child;
-  Function onTap;
-  BuildContext context;
+  Widget? child;
+  Function? onTap;
+  BuildContext? context;
   final bool enabled;
 
   dbButtonsMod24pxTC({
@@ -19,7 +19,7 @@ class dbButtonsMod24pxTC extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: this.enabled ? onTap : null,
+      onTap: this.enabled ? onTap as void Function()? : null,
       child: Container(
         width: MediaQuery.of(context).size.width,
         height: 51,
@@ -80,17 +80,17 @@ class dbCheckBox extends StatelessWidget {
 
 // ignore: must_be_immutable, camel_case_types
 class dbChip extends StatelessWidget {
-  Widget child;
-  Function onTap;
-  Color color;
-  Gradient gradient;
+  Widget? child;
+  Function? onTap;
+  Color? color;
+  Gradient? gradient;
 
   dbChip({this.child, this.onTap, this.color, this.gradient});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onTap,
+      onTap: onTap as void Function()?,
       child: Container(
         padding: EdgeInsets.symmetric(vertical: 8, horizontal: 16),
         decoration: BoxDecoration(
@@ -105,8 +105,8 @@ class dbChip extends StatelessWidget {
 
 // ignore: must_be_immutable, camel_case_types
 class dbChipLightYellow extends StatelessWidget {
-  Widget child;
-  Function onTap;
+  Widget? child;
+  Function? onTap;
 
   dbChipLightYellow({this.child, this.onTap});
 
@@ -122,8 +122,8 @@ class dbChipLightYellow extends StatelessWidget {
 
 // ignore: must_be_immutable, camel_case_types
 class dbChipFillYellow extends StatelessWidget {
-  Widget child;
-  Function onTap;
+  Widget? child;
+  Function? onTap;
 
   dbChipFillYellow({this.child, this.onTap});
 
@@ -138,8 +138,8 @@ class dbChipFillYellow extends StatelessWidget {
 }
 
 class dbChipFillYellowWithGradient extends StatelessWidget {
-  Widget child;
-  Function onTap;
+  Widget? child;
+  Function? onTap;
 
   dbChipFillYellowWithGradient({this.child, this.onTap});
 
@@ -182,15 +182,15 @@ class dbRadioButton extends StatelessWidget {
 }
 
 class dbTouchTargetBig extends StatelessWidget {
-  Function onTap;
-  String text;
+  Function? onTap;
+  String? text;
 
   dbTouchTargetBig({this.text, this.onTap});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: onTap,
+      onTap: onTap as void Function()?,
       child: Padding(
         padding: EdgeInsets.symmetric(vertical: 16, horizontal: 8),
         child: Container(
@@ -202,8 +202,8 @@ class dbTouchTargetBig extends StatelessWidget {
           padding: EdgeInsets.fromLTRB(0, 3.5, 0, 3.5),
           alignment: Alignment.center,
           child: Text(
-            text,
-            style: Theme.of(context).primaryTextTheme.caption.copyWith(
+            text!,
+            style: Theme.of(context).primaryTextTheme.caption!.copyWith(
                   fontSize: 10,
                   fontWeight: FontWeight.w800,
                   color: Colors.black,
